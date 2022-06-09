@@ -695,8 +695,8 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 20px;/*Changement taille de 16 à 20px*/
+    font-weight: bold;/*Changement de 700 à bold*/
 }
 
 .social {
@@ -766,20 +766,20 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/*.bgc-dark-slate-blue { suppression de ce background placé en-dessous d'une image
     background-color: #364577;
-}
+}*/
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#f0f0f0!important;/*J'ai augmenté le contraste avec la couleur white */
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #cb4b10;/*Augmentation de contraste=couleur plus foncée*/
     color: #FFFFFF!important;
 }
 
@@ -945,9 +945,9 @@ h4 {
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
     }
-    #hero-bloc .navbar .nav a {
+    /*#hero-bloc .navbar .nav a {
         color: rgba(255, 255, 255, .6);
-    }
+    }*/
     .hero {
         padding: 50px 0;
     }
