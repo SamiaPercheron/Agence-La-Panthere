@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255,.7);
 }
 
 .d-bloc button:hover {
@@ -650,7 +650,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 600;
     color: #575757!important;
 }
 
@@ -677,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
+    font-style:normal;
 }
 
 .tight-width-whitespace {
@@ -723,7 +724,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #f0f0f0!important;
 }
 
 h4 {
@@ -736,7 +737,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -763,7 +764,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #F0f0f0;
 }
 
 /*.bgc-dark-slate-blue { suppression de ce background placé en-dessous d'une image
@@ -771,29 +772,31 @@ h4 {
 }*/
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#F3976C ;
 }
 
 .tc-white {
-    color:#f0f0f0!important;/*J'ai augmenté le contraste avec la couleur white */
+    color:black!important;/*J'ai augmenté le contraste avec la couleur white */
+    font-style: normal;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
     background: #cb4b10;/*Augmentation de contraste=couleur plus foncée*/
-    color: #FFFFFF!important;
+    color: #f0f0f0!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #f0f0f0!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #f0f0f0!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #f0f0f0!important;
 }
 
 .ltc-atomic-tangerine {
@@ -922,6 +925,7 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        width: 100%;
     }
     .nav > li {
         margin-top: 0;
